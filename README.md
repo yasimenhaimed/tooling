@@ -19,7 +19,7 @@ $ git clone https://gitlab.com/propitix/microservices/php-frontend.git
 $ cd frontend-propitix
 ```
 
-Create a feature branch. # Always start with feature/[name of your branch]
+Create a feature branch. # Always start with feature/[name of your branch]!
 ```
 git branch -b feature/add-css-style-to-about-us-page
 ```
@@ -44,7 +44,7 @@ git add --all # If you are satisfied with your changes and willing to push every
 git commit -m "Put some message about this push here"
 ```
 
-## Push your changes to gitlab, and merge to dev branch
+## Push your changes to GitLab, and merge to dev branch
 ```
 git push --set-upstream origin feature/[Your branch name]
 ```
@@ -72,5 +72,3 @@ Default web root:
 ```
 
 ## If you require permissions to GCP, or Gitlab resources, please talk to dare@propitix.com
-
-Configured Jenkins
