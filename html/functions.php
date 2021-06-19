@@ -2,7 +2,7 @@
 session_start();
 
 // connect to database
-$db = mysqli_connect('172.31.53.80', 'webaccess', 'admin', 'tooling');
+$db = mysqli_connect('db.cbxniqnxjddw.us-east-1.rds.amazonaws.com', 'webaccess', 'admin', 'tooling');
 
 // Check connection
 // if (mysqli_connect_errno()) {
